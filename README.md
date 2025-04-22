@@ -1,6 +1,5 @@
-Here’s the updated **README.md** with the correct project name **Circles**:
 
-```markdown
+
 # Circles Landing Page
 
 ## Live Demo
@@ -54,18 +53,4 @@ Before you begin, make sure you have the following installed on your machine:
    http://localhost:5173
    ```
 
-## Build for Production
-To create a production build, run:
-```bash
-npm run build
-```
-The build files will be available in the `dist` directory.
 
-## License
-This project is licensed under the MIT License - see the [LICENSE](./LICENSE) file for details.
-
-## Contributing
-Contributions are welcome! Feel free to submit a pull request for improvements or suggestions.
-```
-
-You can now use this **`README.md`** for your **Circles** project. Let me know if you need any more adjustments!
