@@ -43,7 +43,7 @@ export default function Header() {
 
             {/* Mobile Menu */}
             {menuOpen && (
-                <div className="absolute top-12 left-0 w-full bg-cardbg border-dashed border-4 border-black shadow-lg flex flex-col space-y-4 py-4 px-6 md:hidden rounded-3xl">
+                <div className="absolute p-10 top-12 left-0 w-full bg-cardbg border-dashed border-4 border-black shadow-lg flex flex-col space-y-4 py-4 px-6 md:hidden rounded-3xl">
                     <a href="" className="hover:text-primary">HOME</a>
                     <a href="" className="hover:text-primary">ABOUT</a>
                     <a href="" className="hover:text-primary">FAQ</a>

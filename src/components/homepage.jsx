@@ -59,27 +59,51 @@ function Homepage() {
             </div>
 
 
+{/* Leaked interface starts */}
+<div className="w-full bg-primary flex flex-col md:flex-row items-center justify-center gap-6 py-10 px-4">
+  {/* Title Card */}
+  <div className="
+      w-full md:w-1/4
+      bg-cardbg p-4
+      flex items-center justify-center
+      rounded-r-[10vh] shadow-md
+      border-dashed border-r-4 border-black
+      text-[6vw] sm:text-[5vw] md:text-[4vw] font-bold
+      h-auto md:h-[50vh]
+      text-center
+    ">
+    <h2>Leaked<br/>Interface</h2>
+  </div>
 
-            {/* Leaked interface starts */}
-            <div className="w-full h-screen bg-primary flex flex-col md:flex-row items-center justify-center gap-6 p-10">
+  {/* Image Cards */}
+  {imageData.map((img) => (
+    <div
+      key={img.id}
+      className={`
+        w-full md:w-1/4
+        bg-secondary
+        rounded-3xl shadow-md
+        border-dashed border-4 border-gray-600
+        overflow-hidden
+        hover:scale-105 transition-transform duration-300
+        h-auto md:h-[70vh]
+      `}
+    >
+      <img
+        src={img.url}
+        alt={img.title}
+        className="
+          w-full
+          h-auto md:h-full
+          object-contain md:object-cover
+          object-center
+        "
+      />
+    </div>
+  ))}
+</div>
+{/* Leaked interface ends */}
 
-                {/* First Div */}
-                <div className="w-full md:w-[25%] h-[100vh] md:h-[50vh] mr-10 bg-cardbg flex justify-center items-center rounded-r-[10vh] shadow-md text-[4vw] font-bold border-dashed border-r-4 border-black text-black">
-                    <h1>Leaked <br />Interface</h1>
-                </div>
-
-
-                {/* Second Div with Image */}
-
-                {imageData.map((image) => (
-                    <div key={image.id} className="w-full md:w-[25%] h-[100vh] md:h-[70vh] bg-secondary flex justify-center items-center rounded-3xl shadow-md overflow-hidden border-dashed border-4 border-gray-600 transition-transform duration-400 hover:scale-105">
-                        <img src={image.url} alt={image.title} className="w-full h-full object-cover" />
-
-                    </div>
-                ))}
-
-
-            </div>
 
 
             <FAQ />
