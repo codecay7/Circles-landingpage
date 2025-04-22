@@ -22,3 +22,23 @@ dist-ssr
 *.njsproj
 *.sln
 *.sw?
+# dependencies
+/node_modules
+
+# build
+/dist
+/build
+
+# system
+.DS_Store
+Thumbs.db
+
+# IDEs
+.vscode
+.idea
+
+# environment files
+.env
+.env.local
+.env.*.local
+
