@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "title": "Sunset View",
+    "url": "https://images.pexels.com/photos/6473732/pexels-photo-6473732.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "description": "A beautiful sunset over the mountains."
+  },
+  {
+    "id": 2,
+    "title": "City Skyline",
+    "url": "https://images.pexels.com/photos/7661072/pexels-photo-7661072.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "description": "A stunning skyline of the city at night."
+  },
+  {
+    "id": 3,
+    "title": "Forest Path",
+    "url": "https://images.pexels.com/photos/16629368/pexels-photo-16629368/free-photo-of-webpage-of-chatgpt-a-prototype-ai-chatbot-is-seen-on-the-website-of-openai-on-a-smartphone-examples-capabilities-and-limitations-are-shown.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=2",
+    "description": "A peaceful trail through a dense forest."
+  }
+]
